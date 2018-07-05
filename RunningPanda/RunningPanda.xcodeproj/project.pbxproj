@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E389171520EE42690052810F /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = E389171420EE42690052810F /* Background.swift */; };
 		E3BCD62020E5E2AC00CE9D88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BCD61F20E5E2AC00CE9D88 /* AppDelegate.swift */; };
 		E3BCD62220E5E2AC00CE9D88 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E3BCD62120E5E2AC00CE9D88 /* GameScene.sks */; };
 		E3BCD62420E5E2AC00CE9D88 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E3BCD62320E5E2AC00CE9D88 /* Actions.sks */; };
@@ -38,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E389171420EE42690052810F /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		E3BCD61C20E5E2AC00CE9D88 /* RunningPanda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunningPanda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3BCD61F20E5E2AC00CE9D88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3BCD62120E5E2AC00CE9D88 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				E3BCD62C20E5E2AC00CE9D88 /* Assets.xcassets */,
 				E3BCD62E20E5E2AC00CE9D88 /* LaunchScreen.storyboard */,
 				E3BCD63120E5E2AC00CE9D88 /* Info.plist */,
+				E389171420EE42690052810F /* Background.swift */,
 			);
 			path = RunningPanda;
 			sourceTree = "<group>";
@@ -277,6 +280,7 @@
 				E3BCD62820E5E2AC00CE9D88 /* GameViewController.swift in Sources */,
 				E3BCD65420E5E2C100CE9D88 /* Panda.swift in Sources */,
 				E3BCD62020E5E2AC00CE9D88 /* AppDelegate.swift in Sources */,
+				E389171520EE42690052810F /* Background.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -519,6 +523,7 @@
 				E3BCD64C20E5E2AC00CE9D88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3BCD64D20E5E2AC00CE9D88 /* Build configuration list for PBXNativeTarget "RunningPandaTests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +532,7 @@
 				E3BCD64F20E5E2AC00CE9D88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E3BCD65020E5E2AC00CE9D88 /* Build configuration list for PBXNativeTarget "RunningPandaUITests" */ = {
 			isa = XCConfigurationList;
@@ -535,6 +541,7 @@
 				E3BCD65220E5E2AC00CE9D88 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
