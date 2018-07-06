@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E3406EF820EF4788003E142B /* atlas in Resources */ = {isa = PBXBuildFile; fileRef = E3406EF620EF4788003E142B /* atlas */; };
+		E3406EF920EF4788003E142B /* background in Resources */ = {isa = PBXBuildFile; fileRef = E3406EF720EF4788003E142B /* background */; };
+		E3406F0F20EF4AB5003E142B /* sound in Resources */ = {isa = PBXBuildFile; fileRef = E3406F0E20EF4AB5003E142B /* sound */; };
+		E3406F1120EF4B05003E142B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3406F1020EF4B05003E142B /* Images.xcassets */; };
+		E3406F1320EF4D54003E142B /* Platform.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3406F1220EF4D54003E142B /* Platform.swift */; };
+		E3406F1520EF4D8D003E142B /* PlatformFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3406F1420EF4D8D003E142B /* PlatformFactory.swift */; };
+		E3406F1720EF4E06003E142B /* BitMaskType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3406F1620EF4E06003E142B /* BitMaskType.swift */; };
+		E3406F1920EF4E6B003E142B /* AppleFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3406F1820EF4E6B003E142B /* AppleFactory.swift */; };
 		E389171520EE42690052810F /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = E389171420EE42690052810F /* Background.swift */; };
 		E3BCD62020E5E2AC00CE9D88 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BCD61F20E5E2AC00CE9D88 /* AppDelegate.swift */; };
 		E3BCD62220E5E2AC00CE9D88 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E3BCD62120E5E2AC00CE9D88 /* GameScene.sks */; };
@@ -14,7 +22,6 @@
 		E3BCD62620E5E2AC00CE9D88 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BCD62520E5E2AC00CE9D88 /* GameScene.swift */; };
 		E3BCD62820E5E2AC00CE9D88 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BCD62720E5E2AC00CE9D88 /* GameViewController.swift */; };
 		E3BCD62B20E5E2AC00CE9D88 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3BCD62920E5E2AC00CE9D88 /* Main.storyboard */; };
-		E3BCD62D20E5E2AC00CE9D88 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3BCD62C20E5E2AC00CE9D88 /* Assets.xcassets */; };
 		E3BCD63020E5E2AC00CE9D88 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3BCD62E20E5E2AC00CE9D88 /* LaunchScreen.storyboard */; };
 		E3BCD63B20E5E2AC00CE9D88 /* RunningPandaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BCD63A20E5E2AC00CE9D88 /* RunningPandaTests.swift */; };
 		E3BCD64620E5E2AC00CE9D88 /* RunningPandaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3BCD64520E5E2AC00CE9D88 /* RunningPandaUITests.swift */; };
@@ -39,6 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E3406EF620EF4788003E142B /* atlas */ = {isa = PBXFileReference; lastKnownFileType = folder; name = atlas; path = ../../../KongfuPanda/KongfuPanda/atlas; sourceTree = "<group>"; };
+		E3406EF720EF4788003E142B /* background */ = {isa = PBXFileReference; lastKnownFileType = folder; name = background; path = ../../../KongfuPanda/KongfuPanda/background; sourceTree = "<group>"; };
+		E3406F0E20EF4AB5003E142B /* sound */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sound; path = ../../../sound; sourceTree = "<group>"; };
+		E3406F1020EF4B05003E142B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../../KongfuPanda/KongfuPanda/Images.xcassets; sourceTree = "<group>"; };
+		E3406F1220EF4D54003E142B /* Platform.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Platform.swift; sourceTree = "<group>"; };
+		E3406F1420EF4D8D003E142B /* PlatformFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatformFactory.swift; sourceTree = "<group>"; };
+		E3406F1620EF4E06003E142B /* BitMaskType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BitMaskType.swift; sourceTree = "<group>"; };
+		E3406F1820EF4E6B003E142B /* AppleFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppleFactory.swift; sourceTree = "<group>"; };
 		E389171420EE42690052810F /* Background.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
 		E3BCD61C20E5E2AC00CE9D88 /* RunningPanda.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunningPanda.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3BCD61F20E5E2AC00CE9D88 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -47,7 +62,6 @@
 		E3BCD62520E5E2AC00CE9D88 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		E3BCD62720E5E2AC00CE9D88 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		E3BCD62A20E5E2AC00CE9D88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E3BCD62C20E5E2AC00CE9D88 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3BCD62F20E5E2AC00CE9D88 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3BCD63120E5E2AC00CE9D88 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3BCD63620E5E2AC00CE9D88 /* RunningPandaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RunningPandaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -107,6 +121,9 @@
 		E3BCD61E20E5E2AC00CE9D88 /* RunningPanda */ = {
 			isa = PBXGroup;
 			children = (
+				E3406F0E20EF4AB5003E142B /* sound */,
+				E3406EF620EF4788003E142B /* atlas */,
+				E3406EF720EF4788003E142B /* background */,
 				E3BCD61F20E5E2AC00CE9D88 /* AppDelegate.swift */,
 				E3BCD65320E5E2C100CE9D88 /* Panda.swift */,
 				E3BCD62120E5E2AC00CE9D88 /* GameScene.sks */,
@@ -114,10 +131,14 @@
 				E3BCD62520E5E2AC00CE9D88 /* GameScene.swift */,
 				E3BCD62720E5E2AC00CE9D88 /* GameViewController.swift */,
 				E3BCD62920E5E2AC00CE9D88 /* Main.storyboard */,
-				E3BCD62C20E5E2AC00CE9D88 /* Assets.xcassets */,
+				E3406F1020EF4B05003E142B /* Images.xcassets */,
 				E3BCD62E20E5E2AC00CE9D88 /* LaunchScreen.storyboard */,
 				E3BCD63120E5E2AC00CE9D88 /* Info.plist */,
 				E389171420EE42690052810F /* Background.swift */,
+				E3406F1220EF4D54003E142B /* Platform.swift */,
+				E3406F1420EF4D8D003E142B /* PlatformFactory.swift */,
+				E3406F1620EF4E06003E142B /* BitMaskType.swift */,
+				E3406F1820EF4E6B003E142B /* AppleFactory.swift */,
 			);
 			path = RunningPanda;
 			sourceTree = "<group>";
@@ -247,11 +268,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3406F1120EF4B05003E142B /* Images.xcassets in Resources */,
+				E3406EF820EF4788003E142B /* atlas in Resources */,
 				E3BCD62B20E5E2AC00CE9D88 /* Main.storyboard in Resources */,
 				E3BCD62220E5E2AC00CE9D88 /* GameScene.sks in Resources */,
-				E3BCD62D20E5E2AC00CE9D88 /* Assets.xcassets in Resources */,
 				E3BCD63020E5E2AC00CE9D88 /* LaunchScreen.storyboard in Resources */,
 				E3BCD62420E5E2AC00CE9D88 /* Actions.sks in Resources */,
+				E3406F0F20EF4AB5003E142B /* sound in Resources */,
+				E3406EF920EF4788003E142B /* background in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +300,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3406F1920EF4E6B003E142B /* AppleFactory.swift in Sources */,
+				E3406F1320EF4D54003E142B /* Platform.swift in Sources */,
+				E3406F1720EF4E06003E142B /* BitMaskType.swift in Sources */,
 				E3BCD62620E5E2AC00CE9D88 /* GameScene.swift in Sources */,
+				E3406F1520EF4D8D003E142B /* PlatformFactory.swift in Sources */,
 				E3BCD62820E5E2AC00CE9D88 /* GameViewController.swift in Sources */,
 				E3BCD65420E5E2C100CE9D88 /* Panda.swift in Sources */,
 				E3BCD62020E5E2AC00CE9D88 /* AppDelegate.swift in Sources */,
